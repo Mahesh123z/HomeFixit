@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home FixIt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="about1.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Home FixIt</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">Near RPD,Tilakwadi Belgaum</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">homefixit@gmail.com.com</p>
+                </div>
+
+                <div class="h-100 d-inline-flex align-items-center me-4 lightdark">
+                    <label class="circle">
+                        <button class="btn_dl" onclick="currmode()">Dark</button>  
+                    </label>
+                </div>
+               
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/home_fix_it?igsh=Y2tydDdpMW80a2Zqs"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Home FixIt</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="service_providerdashboard.php" class="nav-item nav-link">Home</a>
+                    <a href="serivce_provider_about.html" class="nav-item nav-link active">About</a>
+                   <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                   <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Login</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="admin_login.php" class="dropdown-item">Admin</a>
+                            <a href="user_login.php" class="dropdown-item">User</a>
+                            <a href="service_provider_login.php" class="dropdown-item">Service Provider</a>
+                            
+                        </div>
+                    </div> -->
+                    
+                <a href="contact.html" class="nav-item nav-link">Get In Touch</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Emergency 24/7</p>
+                        <h5 class="m-0 text-secondary">+636 343 6016</h5>
+                    </div>
+                </div>
+                       
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Welcome to Home FixIt</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item abt_sub">At Home FixIt, our mission is to bridge the gap between homeowners and reliable service providers. Whether you need a car painter, plumber, electrician, 
+                        or any other home service, our platform is designed to make finding trusted professionals easy and efficient.</li>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5 abt_container">
+        <!-- <section class="intro sec_abt">
+            <h2>Welcome to Home FixIt</h2>
+            <p>At Home FixIt, our mission is to bridge the gap between homeowners and reliable service providers. Whether you need a car painter, plumber, electrician, 
+                or any other home service, our platform is designed to make finding trusted professionals easy and efficient.</p>
+        </section> -->
+    
+        <section class="vision sec_abt">
+            <h2>Our Vision</h2>
+            <p>In a world where finding reliable service providers can be daunting, we aim to simplify the process. Our website connects you with skilled professionals 
+                in your area, ensuring that you receive quality service at competitive prices. We envision a future where homeowners have seamless access to all home 
+                services with just a few clicks.</p>
+        </section>
+    
+        <!-- <section class="story sec_abt">
+            <h2>Our Story</h2>
+            <p>As final-year students at Rani Channamma University, we were inspired to create [Your Website Name] after experiencing the challenges of finding dependable 
+                home service providers ourselves. Recognizing a need for a centralized platform, we embarked on this project to provide a solution that would benefit 
+                both service providers and users alike.</p>
+        </section> -->
+    
+        <section class="services sec_abt">
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Wide Range of Services: From plumbing to electrical work, we offer a comprehensive directory of service providers.</li>
+                <li>Service Professionals: Each service provider is thoroughly vetted to ensure they meet our quality standards.</li>
+                <li>User-Friendly Interface: Our website is designed with simplicity in mind, allowing users to easily navigate and book services.</li>
+                <li>Customer Reviews: Users can leave reviews and ratings, helping others make informed decisions.</li>
+                <li>Residential & commercial services.</li>
+                <li>Quality services at affordable prices.</li>
+                <li>Immediate 24/7 emergency services.</li>
+            </ul>
+        </section>
+    
+        <section class="team sec_abt">
+            <h2>Our Team</h2>
+            <p>We are a group of final-year students from BCA Department, Rani Channamma University, specializing in Full Stack Development. Our diverse skill sets 
+                have allowed us to develop a robust platform that meets the needs of both service providers and users.</p>
+            <ul class="abt_ul">
+                <li><strong>Mahesh Hanabar</strong> – Frontend Developer: Designed the user interface and ensured a smooth user experience.</li>
+                <li><strong>Narayan Belgaonkar</strong> – Backend Developer: Focused on database management and server-side logic.</li>
+                <li><strong>Krishna Khamble</strong> – Content Creation: Managed content creation and strategies to reach our target audience.</li>
+            </ul>
+        </section>
+    
+        <section class="journey sec_abt">
+            <h2>Our Journey</h2>
+            <p>The journey of building Home FixIt has been both challenging and rewarding. From initial brainstorming sessions to late-night coding marathons, 
+                we've poured our hearts into making this platform a reality. Along the way, we've learned valuable lessons in teamwork, problem-solving, and the 
+                importance of user-centered design.</p>
+        </section>
+    
+        <section class="contact sec_abt">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Whether you have feedback, questions, or just want to connect, feel free to reach out to us at <a href="homefixt@gmail.com">e-mail</a>. Together, 
+                we can continue to improve and expand Home FixIt.</p>
+        </section>
+    
+        <!-- <section class="acknowledgments sec_abt">
+            <h2>Acknowledgments</h2>
+            <p>We would like to extend our gratitude to our project mentor, [Mentor's Name], for their invaluable guidance, and to our family and friends for their 
+                constant support throughout this journey.</p>
+        </section> -->
+    
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">About Us</h6>
+                    <h1 class="mb-4">We Are Trusted Home Services Provider Company</h1>
+                    <p class="mb-4">Local service marketplace where users easily discover and hire nearby service providers like electricians, plumber, car painters, CCTV installation, painter in for task.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Residential & commercial services</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at affordable prices</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/ 7 emergency services</p>
+                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-3">
+                            <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p>
+                            <h3 class="m-0 text-secondary">+636 343 6016</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about2.jfif" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- About End -->
+
+
+    <!-- Fact Start -->
+  
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Near RPD,Tilakwadi Belgaum</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+636 343 6016</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>homefixit@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service1.html">Electricial</a>
+                    <a class="btn btn-link" href="service1.html">Plumbing</a>
+                    <a class="btn btn-link" href="service1.html">Carpenter</a>
+                    <a class="btn btn-link" href="service1.html">CCTV Installation</a>
+                    <a class="btn btn-link" href="service1.html">Painter</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>"Upgrade Your Home Today: Discover our latest services and exclusive offers! Get expert tips and schedule your next service with ease."</p>
+                    <!-- <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy 2024; <a class="border-bottom" href="#">Home FixIt</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="ass1.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

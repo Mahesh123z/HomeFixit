@@ -1,0 +1,48 @@
+<html>
+<head>
+<link href="bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet"
+type="text/css" media="all"/>
+<style>
+body{
+			background-color:#1E60AA;
+		}
+		.container{
+			height:400px;
+			width:700px;
+			background-color:#EDF1FC;
+			padding:20px;
+			font-size:18px;
+			color:navy;
+			border:1px;
+		}
+</style>
+</head>
+<body>
+<form action="search_service.php" method="post">
+<br><br><br><br>
+<div class="container">
+<center><h5> SEARCH</h5> </center>
+<br>
+<center>
+<form class="row gy-2 gx-3 align-items-center">
+  <div class="col-auto">
+    <label class="visually-hidden" for="autoSizingInput">Area</label>
+    <input type="text" class="form-control" name="area" style="width:400px;" placeholder="Area" required >
+  </div>
+  <br>
+ <div class="col-auto">
+    <label class="visually-hidden" for="autoSizingInputGroup">services</label>
+    <div class="col-auto">
+    <input type="text" class="form-control" name="services" style="width:400px;" placeholder="Service">
+ </div>
+</div>
+<br>
+<div class="col-auto">
+<button type="submit" class="btn btn-primary"><h5> Search </h5> </button>
+</div>
+</form>
+</div>
+</center>
+</form>
+</body>
+</html>
